@@ -15,6 +15,9 @@
   
     --style-padding: 17rem;
     --style-title: 1.4rem;
+
+    --pink-light: #ff7eb4;
+    --pink: #ff2581;
 }
 
 body{
@@ -119,10 +122,16 @@ input{
     color: var(--text);
 }
 
-.info-bar img{
+.container-post{
+    display: flex;
+    justify-content: space-between;
+}
+
+img{
     width: 25px;
 }
-.news h1{
+
+.description h1{
     margin-top: 25px;
 
     font-family: 'Lexend Deca';
@@ -130,7 +139,7 @@ input{
     font-weight: 400;
     line-height: 32.5px;
 }
-.news p{
+.description p{
     margin-top: 18px;
 
     font-family: 'Lexend Deca';
