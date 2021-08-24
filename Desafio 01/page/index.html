@@ -3,12 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Codelândia | Blog</title>
+    <title>Desafio 1 | Blog</title>
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/style.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+   <script src="https://unpkg.com/scrollreveal"></script>
 
 </head>
 <body>
@@ -29,55 +28,82 @@
 
     <main class="main">
         <section class="container-news">
-            <div class="info-bar">
+            <div class="container-post">
                 <div class="date">24 de ago, 2021</div>
-                <img src="../source/image/favorite_border_white_24dp.svg" alt="">
+                <div class="icon heart">
+                    <img src="../source/image/favorite_border_white_24dp.svg" alt="">
+                </div>
             </div>
-            <div class="news">
+            <div class="description">
                 <h1>Agora é oficial: o Windows 11 está vindo</h1>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit, soluta illum assumenda culpa sunt veritatis perferendis, quas exercitationem necessitatibus alias libero, mollitia quod repellat? Sunt, eum. Accusamus earum maxime quidem.</p>
+                <div class="link-leia-mais">
+                    <a href="#">Leia mais</a>
+                </div>
             </div>
-            <div class="link-leia-mais">
-                <a href="#">Leia mais</a>
-            </div>
+            
 
         </section>
 
         <section class="container-news">
-            <div class="info-bar">
+            <div class="container-post">
                 <div class="date">24 de ago, 2021</div>
                 <img src="../source/image/favorite_border_white_24dp.svg" alt="">
             </div>
-            <div class="news">
+            <div class="description">
                 <h1>Tim Berners-Lee vai leiloar código-fonte da web</h1>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit, soluta illum assumenda culpa sunt veritatis perferendis, quas exercitationem necessitatibus alias libero, mollitia quod repellat? Sunt, eum. Accusamus earum maxime quidem.</p>
+                <div class="link-leia-mais">
+                    <a href="#">Leia mais</a>
+                </div>
             </div>
+            
 
         </section>
 
         <section class="container-news">
-            <div class="info-bar">
+            <div class="container-post">
                 <div class="date">24 de ago, 2021</div>
                 <img src="../source/image/favorite_border_white_24dp.svg" alt="">
             </div>
-            <div class="news">
+            <div class="description">
                 <h1>Tem Firefox novo no pedaço e você vai querer migrar</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est.</p>
+                <div class="link-leia-mais">
+                    <a href="#">Leia mais</a>
+                </div>
             </div>
+            
 
         </section>
 
         <section class="container-news">
-            <div class="info-bar">
+            <div class="container-post">
                 <div class="date">24 de ago, 2021</div>
                 <img src="../source/image/favorite_border_white_24dp.svg" alt="">
             </div>
-            <div class="news">
+            <div class="description">
                 <h1>John McAffe, criador do antivírus McAffe, morre</h1>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit, soluta illum assumenda culpa sunt veritatis perferendis, quas exercitationem necessitatibus alias libero, mollitia quod repellat? Sunt, eum. Accusamus earum maxime quidem.</p>
+                <div class="link-leia-mais">
+                    <a href="#">Leia mais</a>
+                </div>
             </div>
-
         </section>
     </main>
 </body>
+
+<script>
+    const sr = ScrollReveal({
+        origin: 'top',
+        distance: '50px',
+        duration: 2000,
+        reset: true
+    });
+
+    ScrollReveal().reveal('.container-post', { delay: 200 });
+    ScrollReveal().reveal('.date', { delay: 300 });
+    ScrollReveal().reveal('.title', { delay: 400 });
+    ScrollReveal().reveal('.description', { delay: 500 });
+</script>
 </html>
