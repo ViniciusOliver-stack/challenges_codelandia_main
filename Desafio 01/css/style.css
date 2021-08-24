@@ -52,7 +52,6 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
 }
 
 .search input{
@@ -62,6 +61,8 @@ body{
     height: 65px;
 
     background: rgba(255, 255, 255, 0.300);
+
+    border-radius: 5px;
 }
 
 input{
@@ -84,4 +85,75 @@ input{
     position: absolute;
     width: 36px;
     left: 15px;
+}
+
+/*Conteudo*/
+
+.main{
+    width: 70%;
+    margin: 0 auto;
+
+    margin-top: 100px;
+
+    position: relative;
+}
+
+.container-news{
+    background: #fff;
+    padding: 35px;
+    margin-bottom: 40px;
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.300);
+}
+.info-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.date{
+    font-family: 'Lexend Deca';
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 20px;
+
+    color: var(--text);
+}
+
+.info-bar img{
+    width: 25px;
+}
+.news h1{
+    margin-top: 25px;
+
+    font-family: 'Lexend Deca';
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 32.5px;
+}
+.news p{
+    margin-top: 18px;
+
+    font-family: 'Lexend Deca';
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 32px;
+    color: var(--text);
+
+}
+
+.link-leia-mais{
+    position: absolute;
+    right: 80px;
+}
+
+.link-leia-mais a{
+    color: var(--blue-dark);
+    font-size: 1rem;
+    font-family: 'Lexend Deca';
+    font-weight: 600;
+    transition: all2s;
+}
+
+.link-leia-mais a:hover{
+    border-bottom: 2px solid var(--blue);
 }
