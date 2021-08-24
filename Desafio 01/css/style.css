@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap');
+:root {
+    --blue: #3EA1DB;
+    --blue-dark: #574AE8;
+    --white: #FFF;
+  
+    --title: #313131;
+    --text: #B6B6B6;
+    
+    --linear: linear-gradient(90deg, #574AE8 0%, #3EA1DB 100%);
+
+    --font-title: 'Lexend Deca', sans-serif;
+    --font-body: 'Inter', sans-serif;
+  
+    --style-padding: 17rem;
+    --style-title: 1.4rem;
+}
+
+body{
+    background: #f3f5f7;
+    font-size: 56.25%;
+}
+/*Personalizando o menu*/
+.header{
+    background: var(--linear);
+    height: 220px;
+    width: auto;
+}
+
+.container-nav{
+    position: relative;
+    top: 41px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.container-nav .title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title h1{
+    color: var(--white);
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 30px;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.search input{
+    margin-top: 40px;
+    border:none;
+    width: 100%;
+    height: 65px;
+
+    background: rgba(255, 255, 255, 0.300);
+}
+
+input{
+    color: var(--white);
+    font-size: 1.1rem;
+    padding-left: 64px;
+    font-size: 500;
+}
+
+.search input::placeholder{
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 1.1rem;
+    line-height: 22px;
+    opacity: 0.5; 
+    
+}
+.search img{
+    position: absolute;
+    width: 36px;
+    left: 15px;
+}
