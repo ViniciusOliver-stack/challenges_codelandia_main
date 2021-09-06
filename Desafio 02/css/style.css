@@ -36,7 +36,7 @@ body{
 
 .container-text{
     position: absolute;
-    top: 120px;
+    top: 130px;
     left: 50px;
 
     color: var(--white);
@@ -48,7 +48,10 @@ body{
     font-size: 4em;
 
 }
-
+.container-text p{
+    font-weight: 600;
+    font-size: 2em;
+}
 
 /*Destaque*/
 
@@ -100,7 +103,7 @@ section .card-section{
 .line{
     margin-top: 15px;
     position: relative;
-    width: 24em;
+    width: 25em;
     border-right: 2px solid rgba(255, 255, 255, 0.75);
     font-size: 180%;
     text-align: center;
@@ -121,7 +124,7 @@ section .card-section{
         width: 0;
     }
     to{
-        width: 24em;
+        width: 25em;
     }
 }
 
@@ -151,3 +154,60 @@ footer a{
 footer a:hover{
     color: #cccc;
 }
+
+
+/*Resolução*/
+ @media (min-width: 1281px){
+    .header{
+        font-size: 3em;
+    }
+
+    .display-6{
+        font-size: 5.2em;
+    }
+    .h6{
+        font-size: 2.5em;
+    }
+
+ }
+ @media (min-width: 1025px) and (max-width: 1280px){
+    .header{
+        font-size: 2em;
+    }
+ }
+
+ @media (min-width:320px) and (max-width: 480px){
+     .header{
+         font-size: 1.8em;
+     }
+     .container-text h1{
+         font-size: 3.1em;
+     }
+     .container-text p{
+         font-size: 1.5em
+     }
+
+     .container-text{
+        left: 20px;
+    }
+
+    .h6{
+        width: 80%;
+        margin: 0 auto;
+        font-size: 1.7em;
+    }
+ }
+
+ @media (max-width: 320px){
+     .header{
+         font-size: 1.5em;
+     }
+     .container-text p{
+        font-size: 1.2em
+    }
+
+    .container-text{
+        top: 100px;
+    }
+
+ }
