@@ -1,4 +1,4 @@
-﻿![](https://github.com/iuricode/desafios-codelandia/raw/main/image/wallpaper.png)
+![](https://github.com/targdev/challenges-codelandia/raw/main/image/wallpaper.png)
 
 <h2 align="center">
   Desafios Codelândia
