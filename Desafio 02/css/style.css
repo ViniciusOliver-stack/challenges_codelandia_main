@@ -73,9 +73,10 @@ section .card-section{
 }
 .cards {
     display:grid;
-    grid-gap: 20px;
+    grid-gap: 25px;
     grid-template-columns:repeat(auto-fit, minmax(250px, 250px));
     justify-content: center;
+    align-items: center;
  }
  .card{
     display: flex;
@@ -99,6 +100,8 @@ section .card-section{
 .card img:hover{
     transform: scale(1.3);
 }
+
+
 /*Digitação*/
 .line{
     margin-top: 15px;
