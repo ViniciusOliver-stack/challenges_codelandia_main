@@ -29,12 +29,15 @@ Os desafios serão feitos no Figma onde qualquer pessoa pode acessá-lo e até d
 ## 🎯 Índice de desafios
 
 * [Desafio 01 - Blog](#id01)
+* [Desafio 02 - Jordan](#id02)
 ---
 
 ### **Desafio 01 - Blog** <a name="id01"></a>
 
 ![Desafio 01](https://github.com/targdev/challenges-codelandia/raw/main/image/desafio1.svg)
 
+### **Desafio 02 - Jordan Shoes** <a name="id02"></a>
+![Desafio 02](imagem/desafio1.png)
 
 Link do desafio no Figma: [Clique aqui](https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Codel%C3%A2ndia-Desafios?node-id=0%3A1)
 
