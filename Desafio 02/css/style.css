@@ -159,7 +159,7 @@ footer a:hover{
 /*Resolução*/
  @media (min-width: 1281px){
     .header{
-        font-size: 3em;
+        font-size: 2.4em;
     }
 
     .display-6{
@@ -184,7 +184,7 @@ footer a:hover{
          font-size: 3.1em;
      }
      .container-text p{
-         font-size: 1.5em
+         font-size: 1.3em
      }
 
      .container-text{
@@ -200,10 +200,10 @@ footer a:hover{
 
  @media (max-width: 320px){
      .header{
-         font-size: 1.5em;
+         font-size: 1.2em;
      }
      .container-text p{
-        font-size: 1.2em
+        font-size: 0.9em
     }
 
     .container-text{
